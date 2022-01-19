@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int i = 0;
+    while (i <= 20)
+    {
+        if (i < 10)
+        {
+            i++;
+            continue;
+        }
+        // else
+        // {
+        //     printf("%d ", i);
+        //     i++;
+        // }
+        printf("%d ", i);
+        i++;
+    }
+    return 0;
+}
